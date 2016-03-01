@@ -1,0 +1,6 @@
+<h1>Enter Your Timezone</h1>
+
+<%= form_tag current_time_show_path do %>
+  <%= select_tag :time_zone, options_for_select([["Eastern", 0], ["Central", 1], ["Mountain", 2], ["Pacific", 3]]) %>
+  <%= button_tag "Get Current Time" %>
+<% end %>

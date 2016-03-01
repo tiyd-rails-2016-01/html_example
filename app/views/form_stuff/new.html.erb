@@ -1,0 +1,30 @@
+<form method="post" action="/form_stuff/create">
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"></input>
+  </p>
+  <p>
+    <input type="checkbox" id="chocolate-checkbox" name="chocolate" value="true"></input>
+    <label for="chocolate-checkbox">I like chocolate</label>
+  </p>
+  <p>
+    <input type="checkbox" name="steak" value="true"></input> I like steak
+  </p>
+  <p>
+    Do you like puppies?
+    <input type="radio" name="positivity" value="yes"></input> Yes
+    <input type="radio" name="positivity" value="no"></input> No
+  </p>
+  <p><textarea name="lotsatext"></textarea></p>
+  <p>
+    <select name="student">
+      <option></option>
+      <option value="1">Damian</option>
+      <option value="2">Geoff</option>
+      <option value="3">Lyly</option>
+      <option value="4">Hugh</option>
+      <option value="5">Brian</option>
+    </select>
+  </p>
+  <p><button name="thebutton">Press Me</button></p>
+</form>
